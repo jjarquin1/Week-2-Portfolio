@@ -16,6 +16,7 @@ h1 {
 }
 
 
+
 header {
     border: 10px;
     color: rgb(191, 228, 27);
@@ -27,7 +28,7 @@ header {
 
 
 a {
-    color:white;
+    color:rgb(239, 243, 17);
 }
 
 
@@ -81,7 +82,7 @@ li {
 
 
 #workhistory {
-    flex: 65%;
+    flex: 100%;
     background-color: turquoise;
     padding: 15px;
     flex-wrap: wrap;
@@ -96,24 +97,39 @@ li {
     0 0 10px rgb(182, 230, 11);
 }
 
+#workhistory div {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0px 40px 0px 40px;
+}
+
 
 #skills {
-    flex: 65%;
+    flex: 100%;
     background-color: turquoise;
     padding: 15px;
+    margin: 5px;
     flex-wrap: wrap;
     text-align: center;
-    margin: 5px;
     border-radius: 10px;
-    transition: all o.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 #skills:hover {
     box-shadow: inset 0px 0px 5px rgb(235, 212, 13),
     0 0 10px rgb(182, 230, 11);
 }
 
+#skills div {
+    display: inline-flex;
+    flex-direction: column;
+    margin:0px 40px 0px 40px;
+    
+
+}
+
+
 #projects {
-    flex: 65%;
+    flex: 100%;
     background-color: turquoise;
     padding: 15px;
     flex-wrap: wrap;
@@ -126,6 +142,11 @@ li {
     box-shadow: inset 0px 0px 5px rgb(235, 212, 13),
     0 0 10px rgb(182, 230, 11);
 }
+
+#projects div p {
+    display: none; 
+}
+
  #contact {
     flex:100%;
     background-color: turquoise;
@@ -147,7 +168,29 @@ li {
     margin:10px;
 }
  
+@media screen and (max-width:663px) {
+    .flex {
+        display:flex;
+        flex-direction: column;
+    }
 
+    .background{
+        background-image: url(./images/oriental-tiles.png);
+        padding:0px;
+    }
+}
 
+@media screen and (max-width:469px) {
+    #projects div img{ 
+        display:none;
+    }
+    #projects div p {
+        display: all;
+    }
+}
 
-
+ @media screen and (max-width:400px) {
+     #aside2 {
+         background-image: none;
+     }
+ }

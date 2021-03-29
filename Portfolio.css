@@ -2,18 +2,13 @@
     --color1: rgb(196, 143, 45); 
     --color2: rgb(83, 126, 83);
     --color3: rgb(231, 231, 65);
-    --link-color: rgb(197, 36, 36);
+
 }
 
 body {
     background-image: url(./images/oriental-tiles.png);
 }
 
-h1 {
-    text-align: center;
-    color: white;
-    font-size: 30px;  
-}
 
 
 
@@ -36,6 +31,10 @@ nav ul {
     display:flex;
     justify-content: flex-end;
     list-style: none;    
+}
+
+nav ul h1 {
+    justify-content: flex-start;
 }
 
 li {
@@ -66,7 +65,7 @@ li {
 
 #aside1:hover {
     box-shadow: inset 0px 0px 5px rgb(235, 212, 13),
-    0 0 10px rgb(182, 230, 11);
+    0 0 20px rgb(182, 230, 11);
 }
 
 #aside2 {
@@ -94,7 +93,7 @@ li {
 
 #workhistory:hover {
     box-shadow: inset 0px 0px 5px rgb(235, 212, 13),
-    0 0 10px rgb(182, 230, 11);
+    0 0 20px rgb(182, 230, 11);
 }
 
 #workhistory div {
@@ -116,7 +115,7 @@ li {
 }
 #skills:hover {
     box-shadow: inset 0px 0px 5px rgb(235, 212, 13),
-    0 0 10px rgb(182, 230, 11);
+    0 0 20px rgb(182, 230, 11);
 }
 
 #skills div {
@@ -140,7 +139,7 @@ li {
 }
 #projects:hover {
     box-shadow: inset 0px 0px 5px rgb(235, 212, 13),
-    0 0 10px rgb(182, 230, 11);
+    0 0 20px rgb(182, 230, 11);
 }
 
 #projects div p {
@@ -160,7 +159,7 @@ li {
 
  #contact:hover {
     box-shadow: inset 0px 0px 5px rgb(235, 212, 13),
-    0 0 10px rgb(182, 230, 11);
+    0 0 20px rgb(182, 230, 11);
 }
 
 #contact div {
@@ -180,14 +179,7 @@ li {
     }
 }
 
-@media screen and (max-width:469px) {
-    #projects div img{ 
-        display:none;
-    }
-    #projects div p {
-        display: all;
-    }
-}
+
 
  @media screen and (max-width:400px) {
      #aside2 {

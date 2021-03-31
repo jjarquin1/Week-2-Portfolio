@@ -9,6 +9,11 @@ body {
     background-image: url(./images/oriental-tiles.png);
 }
 
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;  
+}
 
 
 
@@ -31,10 +36,6 @@ nav ul {
     display:flex;
     justify-content: flex-end;
     list-style: none;    
-}
-
-nav ul h1 {
-    justify-content: flex-start;
 }
 
 li {
@@ -142,9 +143,7 @@ li {
     0 0 20px rgb(182, 230, 11);
 }
 
-#projects div p {
-    display: none; 
-}
+
 
  #contact {
     flex:100%;
@@ -179,10 +178,16 @@ li {
     }
 }
 
+@media screen and (max-width:400px) {
+    #id1 {
+        display:none;
+    }
+}
 
 
  @media screen and (max-width:400px) {
      #aside2 {
-         background-image: none;
+        background-image: url(./images/oriental-tiles.png);
+        padding:0px;
      }
  }

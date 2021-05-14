@@ -1,130 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" href="./Portfolio/reset.css">-->
-    <link rel="stylesheet" href="./Portfolio.css"> 
-    <title>JJ Jarquin-Portfolio</title>
+    <script src="https://kit.fontawesome.com/b361758bca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>helloJJ</title>
 </head>
+
 <body>
-    <header> 
-      <nav>
-        <ul>
-            <li> 
-                <a href="#skills">Skills</a>
-            </li>
-            <li> 
-                <a href="#workhistory">Work History</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li> 
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="background"> 
-        <h1> Hi, I'm JJ</h1>
-    </div>
-
-    <div class="flex">     
-        <aside id="aside1">
-            <h2> About Me</h2>
-
-            <div>
-                <p> I guess you can say I'm a "Nice Guy" <br>
-                I've helped develope a restuarant by that name <br>
-                 and have dedicated a good chunk of <br>
-                the last year setting the service <br>
-                standard that reflects the company values</p>
-                <p> Right now im working for an Aerospace company. <br>
-                I like facing new challenges in another industry<br>
-                as I know this will lead to growth</p>
-                <p>When I am not working I am studying and finding ways<Br>
-                to expand my knowledge. I am currently enrolled in a <br>
-                coding bootcamp in hopes to program the next Terminator</p>
+    <div class="contatiner">
+        <nav class="menu">
+            <ul>
+                <li><a href="#abilities">Skills</a></li>
+                <li><a href="#flexco">Occupation</a></li>
+                <li><a href="#developed">Projects</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+        <section class="section-1">
+            <header class="photo">
+                <h1>Hi I'm JJ</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae aliquid consectetur est at dolorum mollitia neque
+                    iusto aut et accusamus voluptate, sed cum quam consequatur? Reprehenderit minima
+                    cupiditate autem quod.lorem 10</p>
+            </header>
+            <div class="introduction">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, odio.
             </div>
-
-
-        </aside>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <div>
-               <img src="./images/leadership-icon.png" alt="leadershp-icon">
-               <h3>Team Building</h3>
-               <p> heled train and devlop team members ot so,ethig </p>
-            </div>
-        
-            <div>
-                <img src="./images/coding-icon.png" alt="coding-icon">
-                <h3>Programing</h3>
-            </div>
-
-            <div>
-                <img src="./images/film-icon.png" alt="film-icon">
-                <h3>Film Editing</h3>
-                
-            </div>
-
         </section>
-    </div>
 
-    <div class="flex">
-
-        <aside id="aside2">
-
-        </aside>
-
-        <section id="workhistory">
-            <h2> Work History </h2>
-            <div>
-                <img src="./images/Aerospace-icon.png" alt="Aerospace-icon">
-                <h3> Flexco</h3>
-                <p>Logistics Coordinator</p>
+        <section class="skills" id="abilities">
+            <div class="box">
+                <i class="fas fa-laptop-code fa-4x"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Ab, non?</p>
             </div>
-            <div>
-                <img src="./images/Food-icon.png" atl="burger-icon">
-                <h3>Nice Guys</h3>
-                <p>Manager</p>
+            <div class="box">
+                <i class="fas fa-film fa-4x"></i>
+                <h3>Film Production</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Ab, non?</p>
             </div>
+            <div class="box">
+                <i class="fas fa-users fa-4x"></i>
+                <h3>Team Building</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Ab, non?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-comments-dollar fa-4x"></i>
+                <h3>Sales & Networking</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Ab, non?</p>
+            </div>
+        </section>
+
+        <section class="occupation" id="flexco">
+            <img src="images/FLEXCO.jpeg" alt="Airplane in the clouds">
             <div>
-                <img src="./images/Sales-icon.png" alt="store-icon">
-                <h3>Neiman Marcus</h3>
-                <p>Sales Associate</p>
+                <h2>
+                    Logistics Project Coordinator
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolor ipsum, laboriosam et ea atque tempora exercitationem
+                    cumque, nisi odit eligendi necessitatibus, dolore illo aut sint.</p>
+            </div>
+        </section>
+
+        <section class="projects" id="developed">
+            <div id="slider">
+                <figure>
+                   <a href="https://jjarquin1.github.io/GitGoin/" target="_blank"> <img src="images/GitGoin.png"></a>
+                   <a href="https://jjarquin1.github.io/Quiz-No1/" target="_blank"> <img src="images/Java Quiz.png"></a>
+                   <a href="https://jjarquin1.github.io/Week-3-Password/" target="_blank"><img src="images/Password Generator.png"></a>
+                    <a href="https://jjarquin1.github.io/WeatherUpThere/" target="_blank"><img src="images/WeatherUpThere.png"></a>
+                    <a href="https://jjarquin1.github.io/GitGoin/" target="_blank"><img src="images/GitGoin.png"></a>
+                </figure>
             </div>
 
         </section>
 
-    </div>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div>
-                <a href="https://jjarquin1.github.io/prework-about-me/"><img id="id1" src="./images/Project-1.png" alt="first-website-screenshot"></a>
-                <a href="https://jjarquin1.github.io/prework-about-me/">link to project</a>
+        <section class="contact" id="contact-me">
+            <a href="https://github.com/jjarquin1" target="_blank">
+                <div class="info">
+                    <i class="fab fa-github fa-2x"></i>
+                    <p>GitHub</p>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/jose-jarquin-90532a203/" target="_blank">
+                <div class="info">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                    <p>LinkedIn</p>
+                </div>
+            </a>
+            <a href="mailto:jjarquin.np@gmail.com">
+                <div class="info">
+                    <i class="fas fa-at fa-2x"></i>
+                    <p>E-mail</p>
+                </div>
+            </a>
+            <div class="info">
+                <i class="fas fa-user-tie fa-2x"></i>
+                <p>Resume</p>
             </div>
-
         </section>
 
-    
-  <footer id="contact">
-      <h2>Reach Out</h2>
-        <div>
-            <a href="https://www.linkedin.com/in/jose-jarquin-90532a203/"><img  src="./images/linkedin-logo.png" alt="lindkin-logo"></a>
-        </div>
+        <footer>
+            <p>helloJJ &copy; 2021 </p>
+        </footer>
 
-        <div>
-            <a href="https://github.com/jjarquin1"><img src="./images/Github-logo.png" alt="Github-logo"></a>
-        </div>
-            
-        <div>
-            <a href="https://www.instagram.com/iknowyouspyonme/"><img src="./images/instagram logo.png" alt="instagram-logo"></a>  
-        </div>  
-  </footer>
-    
+    </div>
+
 </body>
+
 </html>

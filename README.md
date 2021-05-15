@@ -1,36 +1,23 @@
 # Week-2-Portfolio
 I'm creating a professional portfolio 
 
-#html
+# html
 
-I started by creating sections and divs to set up my wire frame. 
+Restructure entire HTML document. first created sections for each of my tabs, including my introduction, my skills, my portfolio and my contact information. 
+Second I created a slider for all my portfolio section and attached images and added alt tags. 
+Third I linked the href links. 
 
-I gave some of them classes but most of them Id's because there were certain things i wanted to pin point 
-before i go to CSS and start styling 
+<img src="images/HTMLscript.png">
 
-i created a header in which i decided i would put a nav bar. I was having trouble adjusting h1 in the nav bar to my liking so i put it in the
-div class .background instead.  
+# css
 
-i created 3 sectioins, and for each section i created 3 divs in which i planned to put content.
+For the CSS I first created root variables to use throughout my page. 
 
-after those were in place i went forward and put pictures and icons to visualize the content in hand and i added alts to all images in the html 
+Created a container to wrap up all the sections and assigned it a grid display.
+throughout the sections i assigned a grid display and divided into fractions or grid area. 
 
-i linked the nav bar to the correlating ids and also linked anchors in my contact section to the correlating websites. 
-the project section also has a link to my single project from the prework model as an example of what i intend to put there in the future. 
+Images were given a 100% width to fit container. Throughout the page I stuck with 4 main colors. 
 
+<img src="images/WebsiteLayout.png">
 
-#css
-
-I started by listing all classes and ids i intended to make changes too, especially the sections and divs. 
-
-i gave all sectioins a shadowbox and hover effect
-
-all sections are flex responsive, i had trouble aligning some text under the icons  but was able to do so by adding a flex display as inline
-and a flex direction of column 
-
-for the responsive elements i noticed the background images where making it awkward for the sections to stack on topo of each other, so i used the 
-inspector tool to see where the elements were starting to resopnd awkardlt and decided best to remove the background images at certain pixels. 
-i made 3 media querries for this
-
-i am mostly happy with the response but i understand that the background image i used for the body is still giving an awkward response after 400px.
-i intend to fix it within the next few days. i will update the read me file with any changes
+check out my portfolio! @ https://jjarquin1.github.io/helloJJ/

@@ -6,6 +6,10 @@
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
+a {
+    text-decoration: none;
+}
+
 html {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -73,6 +77,11 @@ img {
     align-items: start;
     justify-content: center;
     box-shadow: var(--shadow);
+    color:#f1f1f1;
+    font-size: 2rem;
+}
+.photo p{
+    font-size: 10px;
 }
 
 .introduction {
@@ -81,9 +90,11 @@ img {
     color: var(--dark);
     display: grid;
     justify-items: center;
-    align-items: center;
+    text-align: center;
     box-shadow: var(--shadow);
     padding: 1.5rem;
+    font-size: larger;
+    line-height: 1.6;
 }
 
 .skills {
@@ -109,6 +120,8 @@ img {
     grid-template-columns: 1fr 1fr;
     padding: 3rem;
     margin-top: 2rem;
+    font-size: larger; 
+    line-height: 1.6; 
 }
 
 #slider {

@@ -36,7 +36,7 @@ Images were given a 100% width to fit container. Throughout the page I stuck wit
 
   
   # Usage 
-  Visit my portfolio at: file:///Users/jjarquin/Homework/helloJJ/index.html
+  Visit my portfolio at: https://jjarquin1.github.io/helloJJ/
   
   
   # Constributions
